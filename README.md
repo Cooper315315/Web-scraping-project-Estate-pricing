@@ -19,8 +19,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 import regex as re
 import datetime as dt
-import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
 import numpy as np
 import itertools
 ```
