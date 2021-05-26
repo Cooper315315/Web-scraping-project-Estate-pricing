@@ -9,13 +9,57 @@
 <img width="800" alt="DF" src="https://user-images.githubusercontent.com/80112729/119645828-0a567a00-be51-11eb-8754-bd2097b0be94.png">
 <br/>
 
+Step 1: Import necessary libraries 
 ```
+from bs4 import BeautifulSoup
+import pandas as pd
+import requests
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+import regex as re
+import datetime as dt
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+import numpy as np
+import itertools
+```
+Step 2: Scrape the website
+```
+year = [str(y) for y in range(2002,2022)]
+month = list(range(1,13))
+month = [str(m).zfill(2) for m in month]
+calendar = list(itertools.product(year, month))[:-9]
+new_table = pd.DataFrame(columns=range(9),index=[0])
+URL_generic = 'https://www.housingauthority.gov.hk/en/home-ownership/hos-secondary-market/transaction-records/transaction-records-search-detail-by-month.html?catId=1&'
+driver = webdriver.Chrome('./chromedriver')
+for c in calendar:
+    URL = URL_generic + 'para0='+c[0]+'&para1='+c[1]
+    driver.get(URL)
+    subhtml = driver.page_source
+    soup = BeautifulSoup(subhtml, "html.parser")
+    table = soup.find_all('table')
+    for t in table:
+        row=[]
+        tr = t.tbody.find_all('tr')
+        for i in tr:
+            element = []
+            for j in i.find_all('td'):
+                element.append(j.get_text())
+            row.append(element)
+        for n in range(len(row)):
+            sub_table = pd.DataFrame(row[n]).T
+            sub_table['8']=c[0]+'-'+c[1]
+            new_table = new_table.append(sub_table)
+new_table.to_csv('hk_property.csv')
+```
+
 Step 1: Request and parse website as HTML using Selenium and BS4
 
 Step 2: Find all "table" "tr" and "td" elements and extract contents via get_text()
 
 Step 3: Loop through the above process through all the months and years from 2002 (240 pages in total)
-```
+
 
 <!-- ################################################################################################ -->
 
