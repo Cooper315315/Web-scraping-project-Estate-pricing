@@ -1,10 +1,27 @@
 # Web-scraping-project-Estate-pricing
 
-<h3>Goal: Flight ticket price prediction</h3>
+<h3>Goal: Find insights and actions plans from estate pricing data</h3>
+
+
+<br/>
+<h3>Data Collection I:</h3>
+<img width="1000" alt="DF" src="https://user-images.githubusercontent.com/80112729/119642272-1d674b00-be4d-11eb-93fa-9e65af661b7a.png">
+<br/>
+
+Step 1: Request and parse website as HTML using Selenium and BS4
+
+Step 2: Find all <table> <tr> and <td> elements and extract contents via get_text()
+
+Step 3: Loop through the above process through all the months and years from 2002 (240 pages in total)
 
 <br/>
 <h3>Original DataFrame:</h3>
-<img width="500" alt="DF" src="https://user-images.githubusercontent.com/80112729/119641257-0bd17380-be4c-11eb-983f-3c917644892e.png">
+<img width="1000" alt="DF" src="https://user-images.githubusercontent.com/80112729/119641257-0bd17380-be4c-11eb-983f-3c917644892e.png">
+<br/>
+
+<br/>
+<h3>Finalised DataFrame:</h3>
+<img width="1000" alt="DF" src="https://user-images.githubusercontent.com/80112729/119642065-eb55e900-be4c-11eb-9b87-4e99a3b3456a.png">
 <br/>
 
 
