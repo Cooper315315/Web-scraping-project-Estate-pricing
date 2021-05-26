@@ -9,8 +9,13 @@
 <br/>
 
 Step 1: Request and parse website as HTML using Selenium and BS4
+
 Step 2: Find all (<table> <tr> and <td>) elements and extract contents via get_text()
+
 Step 3: Loop through the above process through all the months and years from 2002 (240 pages in total)
+
+  
+  
 
 <br/>
 <h3>Original DataFrame:</h3>
