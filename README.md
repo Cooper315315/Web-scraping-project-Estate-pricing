@@ -30,12 +30,18 @@ month = [str(m).zfill(2) for m in month]
 calendar = list(itertools.product(year, month))[:-9]
 new_table = pd.DataFrame(columns=range(9),index=[0])
 URL_generic = 'https://www.housingauthority.gov.hk/en/home-ownership/hos-secondary-market/transaction-records/transaction-records-search-detail-by-month.html?catId=1&'
+
+### Request and parse website as HTML using Selenium and BS4 ###
+
 driver = webdriver.Chrome('./chromedriver')
 for c in calendar:
     URL = URL_generic + 'para0='+c[0]+'&para1='+c[1]
     driver.get(URL)
     subhtml = driver.page_source
     soup = BeautifulSoup(subhtml, "html.parser")
+    
+### Find all "table" "tr" and "td" elements and extract contents via get_text() ###
+    
     table = soup.find_all('table')
     for t in table:
         row=[]
@@ -45,6 +51,9 @@ for c in calendar:
             for j in i.find_all('td'):
                 element.append(j.get_text())
             row.append(element)
+            
+### Loop through the above process through all the months and years from 2002 (240 pages in total) ###     
+    
         for n in range(len(row)):
             sub_table = pd.DataFrame(row[n]).T
             sub_table['8']=c[0]+'-'+c[1]
@@ -53,11 +62,6 @@ new_table.to_csv('hk_property.csv')
 ```
 
 Step 1: Request and parse website as HTML using Selenium and BS4
-
-Step 2: Find all "table" "tr" and "td" elements and extract contents via get_text()
-
-Step 3: Loop through the above process through all the months and years from 2002 (240 pages in total)
-
 
 <!-- ################################################################################################ -->
 
