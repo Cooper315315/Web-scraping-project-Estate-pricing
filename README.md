@@ -9,12 +9,13 @@
 <img width="800" alt="DF" src="https://user-images.githubusercontent.com/80112729/119645828-0a567a00-be51-11eb-8754-bd2097b0be94.png">
 <br/>
 
-
+```
 Step 1: Request and parse website as HTML using Selenium and BS4
 
 Step 2: Find all "table" "tr" and "td" elements and extract contents via get_text()
 
 Step 3: Loop through the above process through all the months and years from 2002 (240 pages in total)
+```
 
 <!-- ################################################################################################ -->
 
