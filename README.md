@@ -25,7 +25,7 @@ Step 3: Loop through the above process through all the months and years from 200
 <img width="500" alt="DF" src="https://user-images.githubusercontent.com/80112729/119641257-0bd17380-be4c-11eb-983f-3c917644892e.png">
 <br/>
 
-
+```
 Step 1: Remove unnecessary columns
 
 Step 2: Checking for null values
@@ -37,16 +37,18 @@ Step 4: Convert date column as datetime type and set it as index
 Step 5: Convert string numbers into numerical values
 
 Step 6: Check and remove duplicate values
+```
 
 <br/>
 <h3>Finalised DataFrame:</h3>
 <img width="800" alt="DF" src="https://user-images.githubusercontent.com/80112729/119642065-eb55e900-be4c-11eb-9b87-4e99a3b3456a.png">
 <br/>
 
-
+```
 Note 1: 1 sq m = 10.764 sq ft.
 
 Note 2: "H": 27/F or above; "M": 14/F to 26/F; "L": 13/F or below.
+```
 
 <!-- ################################################################################################ -->
 
