@@ -6,8 +6,9 @@
 
 <br/>
 <h3>Data Collection: Web Scraping</h3>
-<img width="800" alt="DF" src="https://user-images.githubusercontent.com/80112729/119642272-1d674b00-be4d-11eb-93fa-9e65af661b7a.png">
+<img width="800" alt="DF" src="https://user-images.githubusercontent.com/80112729/119645828-0a567a00-be51-11eb-8754-bd2097b0be94.png">
 <br/>
+
 
 Step 1: Request and parse website as HTML using Selenium and BS4
 
