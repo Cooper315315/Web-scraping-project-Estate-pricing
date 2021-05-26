@@ -2,8 +2,6 @@
 
 <h3>Goal: Find insights and actions plans from estate pricing data</h3>
 
-<style> .background{ background-color:white; } </style>
-//Goal: Find insights and actions plans from estate pricing data
 <!-- ################################################################################################ -->
 
 <br/>
