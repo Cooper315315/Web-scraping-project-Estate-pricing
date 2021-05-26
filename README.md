@@ -43,8 +43,8 @@ Step 6: Check and remove duplicate values
 <img width="800" alt="DF" src="https://user-images.githubusercontent.com/80112729/119642065-eb55e900-be4c-11eb-9b87-4e99a3b3456a.png">
 <br/>
 
-<div class="text-purple">
-  This text is purple, <a href="#" class="text-inherit">including the link</a>
+<div class="text-gray mb-2">
+  .text-gray on white
 </div>
 
 Note 1: 1 sq m = 10.764 sq ft.
