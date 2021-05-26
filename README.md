@@ -49,14 +49,19 @@ Note 2: "H": 27/F or above; "M": 14/F to 26/F; "L": 13/F or below.
 
 <!-- ################################################################################################ -->
 
-<h3>Check for correlations:</h3>
+<h3>The Most Popular Property Types:</h3>
 
 <br/>
-<img width="1000" alt="Correlation" src="https://user-images.githubusercontent.com/80112729/119647006-5ce46600-be52-11eb-84b4-36b4bb67c04b.png">
+<img width="1000" alt="Propertytype" src="https://user-images.githubusercontent.com/80112729/119647006-5ce46600-be52-11eb-84b4-36b4bb67c04b.png">
 From 2002 to 2021, most transaction sales were made in Tseung Kwan O, Tin Shui Wai, Tuen Mun and Ma On Shan. And the floor types include all three, which are higher, middle and lower floor.
 <br/>
 
 
-Future improvements:
-1. Add features into datasets
-2. Consider parameters affecting the ticket price(Service fee, fuel surcharge, date and time) -->
+
+<h3>Price per sq ft over time:</h3>
+
+<br/>
+<img width="1000" alt="Priceovertime" src="https://user-images.githubusercontent.com/80112729/119647006-5ce46600-be52-11eb-84b4-36b4bb67c04b.png">
+For Tseung Kwan O, Tin Shui Wai, Tuen Mun and Ma On Shan. the transaction price per sq ft increases with time. But the increment starts to flatten around 2019.
+<br/>
+
