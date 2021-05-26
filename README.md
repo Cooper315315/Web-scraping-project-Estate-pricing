@@ -52,7 +52,7 @@ Note 2: "H": 27/F or above; "M": 14/F to 26/F; "L": 13/F or below.
 <h3>Check for correlations:</h3>
 
 <br/>
-<img width="500" alt="Correlation" src="https://user-images.githubusercontent.com/80112729/119647006-5ce46600-be52-11eb-84b4-36b4bb67c04b.png">
+<img width="1000" alt="Correlation" src="https://user-images.githubusercontent.com/80112729/119647006-5ce46600-be52-11eb-84b4-36b4bb67c04b.png">
 From the correlation heat map, it is observed that “Miles” is the most correlated feature to the target feature (price), the rest have very little influence on the target feature.
 <br/>
 
