@@ -61,8 +61,6 @@ for c in calendar:
 new_table.to_csv('hk_property.csv')
 ```
 
-Step 1: Request and parse website as HTML using Selenium and BS4
-
 <!-- ################################################################################################ -->
 
 <h3>Data Preprocessing: Data Cleaning</h3>
