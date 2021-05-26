@@ -53,7 +53,7 @@ Note 2: "H": 27/F or above; "M": 14/F to 26/F; "L": 13/F or below.
 
 <br/>
 <img width="1000" alt="Correlation" src="https://user-images.githubusercontent.com/80112729/119647006-5ce46600-be52-11eb-84b4-36b4bb67c04b.png">
-From the correlation heat map, it is observed that “Miles” is the most correlated feature to the target feature (price), the rest have very little influence on the target feature.
+From 2002 to 2021, most transaction sales were made in Tseung Kwan O, Tin Shui Wai, Tuen Mun and Ma On Shan. And the floor types include all three, which are higher, middle and lower floor.
 <br/>
 
 
