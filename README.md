@@ -134,21 +134,21 @@ For Tseung Kwan O, Tin Shui Wai, Tuen Mun and Ma On Shan. the transaction price 
 
 1. Build more:
 
-HOS property prices have increased 4x since 2002 whilst transaction volumes stayed largely in-line - likely a reflection 
-of inflation and / or supply shortage. To ensure affordable public housing, there is room for more supply
+    HOS property prices have increased 4x since 2002 whilst transaction volumes stayed largely in-line - likely a reflection 
+    of inflation and / or supply shortage. To ensure affordable public housing, there is room for more supply
 
 
 2. Location matters more than floor type:
 
-```
-Tseung Kwan O, Tin Shui Wai, Tuen Mun and Ma Oh Shan are the prime locations for HOS constructions - in terms of total 
-transaction volume as well as price per square feet. In addition, transaction made in all three types of floors are 
-very similar. 
-```
+
+    Tseung Kwan O, Tin Shui Wai, Tuen Mun and Ma Oh Shan are the prime locations for HOS constructions - in terms of total 
+    transaction volume as well as price per square feet. In addition, transaction made in all three types of floors are 
+    very similar. 
+
 3. List HOS prices at 40-45% above predicted price:
 
-```
-Given the most transacted property types tend to have 40-45% discount rate vs par, government can consider using our 
-pricing estimation model to decide listing price at 40-45% premium
-```
+
+    Given the most transacted property types tend to have 40-45% discount rate vs par, government can consider using our 
+    pricing estimation model to decide listing price at 40-45% premium
+
 
