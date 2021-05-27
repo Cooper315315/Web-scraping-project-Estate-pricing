@@ -114,18 +114,22 @@ For Tseung Kwan O, Tin Shui Wai, Tuen Mun and Ma On Shan. the transaction price 
 <br/>
 
 
+<!-- ################################################################################################ -->
+
 <h3>Challenges</h3>
+
 ```
  - Many public APIs require additional applications to access, which could take several days
  - Elements are classes are not cleanly defined in many websites
 ```
 
 <h3>Next steps</h3>
+
 ```
 - Overlay land acquisition / housing construction data with HOS market data to understand what are the supply-side factors that impact housing prices in each locations
-
 - Improve the model and add more data
 ```
 
+<!-- ################################################################################################ -->
 
 
