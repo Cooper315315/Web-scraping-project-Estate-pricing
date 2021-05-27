@@ -113,3 +113,19 @@ From 2002 to 2021, most transaction sales were made in Tseung Kwan O, Tin Shui W
 For Tseung Kwan O, Tin Shui Wai, Tuen Mun and Ma On Shan. the transaction price per sq ft increases with time. But the increment starts to flatten around 2019.
 <br/>
 
+
+<h3>Challenges</h3>
+```
+ - Many public APIs require additional applications to access, which could take several days
+ - Elements are classes are not cleanly defined in many websites
+```
+
+<h3>Next steps</h3>
+```
+- Overlay land acquisition / housing construction data with HOS market data to understand what are the supply-side factors that impact housing prices in each locations
+
+- Improve the model and add more data
+```
+
+
+
