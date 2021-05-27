@@ -134,11 +134,8 @@ For Tseung Kwan O, Tin Shui Wai, Tuen Mun and Ma On Shan. the transaction price 
 
 1. Build more:
 
-```
 HOS property prices have increased 4x since 2002 whilst transaction volumes stayed largely in-line - likely a reflection 
 of inflation and / or supply shortage. To ensure affordable public housing, there is room for more supply
-```
-
 
 
 2. Location matters more than floor type:
